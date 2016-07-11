@@ -1,0 +1,90 @@
+@import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,500,600,700,800,900");
+
+body {
+		background: url(images/bg.jpg) no-repeat center;
+		font-family: 'Raleway', sans-serif;
+		font-size: 12pt;
+		font-weight: 300;
+		line-height: 1.65em;
+}
+
+p1{
+	font-weight: 800;
+}
+
+a{
+	text-decoration: none;
+}
+
+#personal_photo img{
+	height: 8%;
+	width: 50%;
+}
+
+#page{
+	position: relative;
+	background: #FFF;
+	padding: 6em 4em 6em 4em;
+	border-radius: 6px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 60%;
+	text-align: center;
+}
+
+#page ul{
+    display: inline-block;
+}
+
+#page ul li{
+	border-top: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+#student div{
+	display: none;
+	
+}
+
+#student:hover div{
+	display: inline-block;
+	position: absolute; 
+	left: 0px;
+	top: 535px;
+}
+
+
+
+.contact ul{
+	list-style: none;
+	
+}
+
+.button{
+	background: #FFF;
+	border-radius: 6px;
+    border-style: solid;
+    border-width: 2px;
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: 600;
+	padding: 0.1em 1em;
+}
+
+#facebook{
+	color: #3b5998;
+}
+
+#facebook :hover{
+	text-shadow:3px 3px 3px #cccccc;
+}
+
+#google_plus{
+	
+	color: #dd4b39;
+}
+
+#google_plus :hover{
+	text-shadow:3px 3px 3px #cccccc;
+}
